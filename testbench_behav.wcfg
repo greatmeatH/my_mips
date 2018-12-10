@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="273304425fs"></ZoomEndTime>
+      <Cursor1Time time="88199000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="139"></NameColumnWidth>
+      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="27" />
+   <wvobject type="logic" fp_name="/testbench/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/my_mips/RegDst">
+      <obj_property name="ElementShortName">RegDst</obj_property>
+      <obj_property name="ObjectShortName">RegDst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/my_mips/ExtOp">
+      <obj_property name="ElementShortName">ExtOp</obj_property>
+      <obj_property name="ObjectShortName">ExtOp</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/my_mips/ALUSrc">
+      <obj_property name="ElementShortName">ALUSrc</obj_property>
+      <obj_property name="ObjectShortName">ALUSrc</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/my_mips/ALUctr">
+      <obj_property name="ElementShortName">ALUctr</obj_property>
+      <obj_property name="ObjectShortName">ALUctr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/my_mips/RegWr">
+      <obj_property name="ElementShortName">RegWr</obj_property>
+      <obj_property name="ObjectShortName">RegWr</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/instr">
+      <obj_property name="ElementShortName">instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/op">
+      <obj_property name="ElementShortName">op[5:0]</obj_property>
+      <obj_property name="ObjectShortName">op[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/funct">
+      <obj_property name="ElementShortName">funct[5:0]</obj_property>
+      <obj_property name="ObjectShortName">funct[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/rs">
+      <obj_property name="ElementShortName">rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/rt">
+      <obj_property name="ElementShortName">rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/rd">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/imm_16">
+      <obj_property name="ElementShortName">imm_16[15:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_16[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/dst">
+      <obj_property name="ElementShortName">dst[4:0]</obj_property>
+      <obj_property name="ObjectShortName">dst[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/in_data">
+      <obj_property name="ElementShortName">in_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/out_rs">
+      <obj_property name="ElementShortName">out_rs[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_rs[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/out_rt">
+      <obj_property name="ElementShortName">out_rt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out_rt[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/mux_out">
+      <obj_property name="ElementShortName">mux_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/ext_out">
+      <obj_property name="ElementShortName">ext_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ext_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/my_mips/U_controller/ori">
+      <obj_property name="ElementShortName">ori</obj_property>
+      <obj_property name="ObjectShortName">ori</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/U_gpr/in_data">
+      <obj_property name="ElementShortName">in_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/U_gpr/dst">
+      <obj_property name="ElementShortName">dst[4:0]</obj_property>
+      <obj_property name="ObjectShortName">dst[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/my_mips/U_gpr/RegWr">
+      <obj_property name="ElementShortName">RegWr</obj_property>
+      <obj_property name="ObjectShortName">RegWr</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/my_mips/U_gpr/RegDst">
+      <obj_property name="ElementShortName">RegDst</obj_property>
+      <obj_property name="ObjectShortName">RegDst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/U_gpr/gpr[12]">
+      <obj_property name="ElementShortName">[12][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/U_gpr/gpr[10]">
+      <obj_property name="ElementShortName">[10][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+   </wvobject>
+</wave_config>

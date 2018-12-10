@@ -1,0 +1,22 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hejunwen/Single_Cycle/Single_Cycle.srcs/sources_1/new/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hejunwen/Single_Cycle/Single_Cycle.srcs/sources_1/new/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hejunwen/Single_Cycle/Single_Cycle.srcs/sources_1/new/dm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dm_4k
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hejunwen/Single_Cycle/Single_Cycle.srcs/sources_1/new/ext.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ext
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hejunwen/Single_Cycle/Single_Cycle.srcs/sources_1/new/gpr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gpr
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hejunwen/Single_Cycle/Single_Cycle.srcs/sources_1/new/im.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module im_4k
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hejunwen/Single_Cycle/Single_Cycle.srcs/sources_1/new/mips.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mips
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hejunwen/Single_Cycle/Single_Cycle.srcs/sources_1/new/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hejunwen/Single_Cycle/Single_Cycle.srcs/sources_1/new/npc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module npc
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hejunwen/Single_Cycle/Single_Cycle.srcs/sources_1/new/pc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/hejunwen/Single_Cycle/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench

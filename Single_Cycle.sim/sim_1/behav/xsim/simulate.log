@@ -1,0 +1,5 @@
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+WARNING: Too many words specified in data file /home/hejunwen/Single_Cycle/cal_data.txt
+Time                30000,R16= ffff0000
+Time               140000,R16= 0000ffff
