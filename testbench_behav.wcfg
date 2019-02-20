@@ -12,12 +12,12 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="273304425fs"></ZoomEndTime>
+      <ZoomEndTime time="315585971fs"></ZoomEndTime>
       <Cursor1Time time="88199000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="139"></NameColumnWidth>
-      <ValueColumnWidth column_width="90"></ValueColumnWidth>
+      <ValueColumnWidth column_width="86"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="27" />
    <wvobject type="logic" fp_name="/testbench/clk">
@@ -120,12 +120,12 @@
       <obj_property name="ElementShortName">RegDst</obj_property>
       <obj_property name="ObjectShortName">RegDst</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/testbench/my_mips/U_gpr/gpr[12]">
-      <obj_property name="ElementShortName">[12][31:0]</obj_property>
-      <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+   <wvobject type="array" fp_name="/testbench/my_mips/U_gpr/gpr[30]">
+      <obj_property name="ElementShortName">[30][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[30][31:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/testbench/my_mips/U_gpr/gpr[10]">
-      <obj_property name="ElementShortName">[10][31:0]</obj_property>
-      <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+   <wvobject type="array" fp_name="/testbench/my_mips/U_gpr/gpr[1]">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
    </wvobject>
 </wave_config>
