@@ -11,6 +11,8 @@ module mips(clk,rst);
     wire ALUSrc;
     wire ALUctr;
     wire RegWr;
+    wire DMWr;
+    wire GPRSrc;
     
     //instructions
     wire [5:0] op;
@@ -34,13 +36,14 @@ module mips(clk,rst);
         //wire [31:0] out_rt;
         //wire [31:0] ext_out;
         //wire ALUSrc;
-    wire [31:0] mux_out;
+    wire [31:0] mux_out_alu;
+    wire [31:0] mux_out_gpr;
     
     //alu
         //wire [31:0] out_rs;
         //wire [31:0] mux_out;
         //wire ALUctr;
-        //wire [31:0] in_data;
+    wire [31:0] alu_out;
         
     //ext
         //wire ExtOp;
@@ -48,7 +51,7 @@ module mips(clk,rst);
     wire [31:0] ext_out;
     
     //dm_4k
-    wire [31:0] DMout;
+    wire [31:0] dm_out;
     
     assign op=instr[31:26];
     assign rs=instr[25:21];
@@ -59,19 +62,21 @@ module mips(clk,rst);
     
     im_4k U_im_4k(pcout[11:2],instr);
     
-    dm_4k U_dm_4k(in_data[11:2],out_rt,'b1,clk,DMout);
+    dm_4k U_dm_4k(alu_out[9:0],out_rt,DMWr,clk,dm_out);
     
-    gpr U_gpr(clk,rs,rt,rd,dst,RegWr,RegDst,in_data,out_rs,out_rt);
+    gpr U_gpr(clk,rs,rt,rd,dst,RegWr,RegDst,mux_out_gpr,out_rs,out_rt);
     
-    controller U_controller(op,funct,RegDst,ExtOp,ALUSrc,ALUctr,RegWr);
+    controller U_controller(op,funct,RegDst,ExtOp,ALUSrc,ALUctr,RegWr,DMWr,GPRSrc);
     
     pc U_pc(clk,rst,pcin,pcout);
     
     npc U_npc(pcout,pcin);
     
-    mux U_mux(out_rt,ext_out,ALUSrc,mux_out);
+    mux U_mux_alu(out_rt,ext_out,ALUSrc,mux_out_alu);
     
-    alu U_alu(out_rs,mux_out,ALUctr,in_data);
+    mux U_mux_gpr(dm_out,alu_out,GPRSrc,mux_out_gpr);
+    
+    alu U_alu(out_rs,mux_out_alu,ALUctr,alu_out);
     
     ext U_ext(ExtOp,imm_16,ext_out);
     
@@ -82,7 +87,7 @@ module mips(clk,rst);
     
     //module gpr(clk,rs,rt,rd,dst,RegWr,RegDst,in_data,out_rs,out_rt);
     
-    //module controller(op,funct,RegDst,ExtOp,ALUSrc,ALUctr,RegWr);
+    //module controller(op,funct,RegDst,ExtOp,ALUSrc,ALUctr,RegWr,DMWr,GPRSrc);
     
     //module pc(clk,rst,npc,pc);
     

@@ -9,6 +9,7 @@ module testbench ( );
     initial begin  
        $readmemh("/home/hejunwen/Single_Cycle/code.txt",my_mips.U_im_4k.im);
        $readmemh("/home/hejunwen/Single_Cycle/cal_data.txt",my_mips.U_gpr.gpr);
+       $readmemh("/home/hejunwen/Single_Cycle/dm_data.txt",my_mips.U_dm_4k.dm);
            rst= 1 ;
            clk = 0 ;
            #30 rst=0;      
