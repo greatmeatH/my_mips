@@ -12,14 +12,14 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="838955594fs"></ZoomEndTime>
+      <ZoomEndTime time="199288833fs"></ZoomEndTime>
       <Cursor1Time time="11599000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="135"></NameColumnWidth>
-      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+      <NameColumnWidth column_width="106"></NameColumnWidth>
+      <ValueColumnWidth column_width="133"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="31" />
+   <WVObjectSize size="36" />
    <wvobject type="logic" fp_name="/testbench/clk">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -143,5 +143,26 @@
    <wvobject type="array" fp_name="/testbench/my_mips/U_dm_4k/addr">
       <obj_property name="ElementShortName">addr[11:2]</obj_property>
       <obj_property name="ObjectShortName">addr[11:2]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/my_mips/U_controller/j">
+      <obj_property name="ElementShortName">j</obj_property>
+      <obj_property name="ObjectShortName">j</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/U_controller/NPCSel">
+      <obj_property name="ElementShortName">NPCSel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">NPCSel[1:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/U_npc/npc">
+      <obj_property name="ElementShortName">npc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">npc[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/U_npc/pc">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/my_mips/U_npc/imm_26">
+      <obj_property name="ElementShortName">imm_26[25:0]</obj_property>
+      <obj_property name="ObjectShortName">imm_26[25:0]</obj_property>
    </wvobject>
 </wave_config>
